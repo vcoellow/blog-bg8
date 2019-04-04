@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Hind Light';
+	src: url('../fonts/hind-light-webfont.woff2') format('woff2'),
+		 url('../fonts/hind-light-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'Hind Medium';
+	src: url('../fonts/hind-medium-webfont.woff2') format('woff2'),
+		 url('../fonts/hind-medium-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'Hind Regular';
+	src: url('../fonts/hind-regular-webfont.woff2') format('woff2'),
+		 url('../fonts/hind-regular-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'Hind Semibold';
+	src: url('../fonts/hind-semibold-webfont.woff2') format('woff2'),
+		 url('../fonts/hind-semibold-webfont.woff') format('woff');
+}@font-face {
+	font-family: 'Hind Bold';
+	src: url('../fonts/hind-bold-webfont.woff2') format('woff2'),
+		 url('../fonts/hind-bold-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeue.ttc') format('ttc'),
+}

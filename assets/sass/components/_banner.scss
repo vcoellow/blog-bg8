@@ -1,0 +1,56 @@
+.owl-carousel {
+	.item {
+		height: 350px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		.imgPost {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			overflow: hidden;
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				filter: blur(3px);
+				filter: brightness(70%);
+				transition: all .3s ease-in-out;
+			}
+		}
+		.infoPost {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-flow: column wrap;
+			justify-content: center;
+			z-index: 999;
+			text-align: center;
+			h2 {
+				text-transform: uppercase;
+				font-family: "Hind Bold";
+				font-size: 26px;
+				color: $white;
+			}
+			span {
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-family: "Helvetica Neue";
+				font-size: 14px;
+				color: $white;
+			}
+		}
+		&:hover {
+			.imgPost {
+				img {
+					transform: scale(1.3);
+					transition: .3s ease-in;
+				}
+			}
+		}
+	}
+	.owl-dots {
+		display: none;
+	}
+}

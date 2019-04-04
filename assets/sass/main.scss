@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import "../css/fonts.css";
+@import "components/vars";
+@import "components/header";
+@import "components/banner";
+@import "components/blog";
+@import "components/single-post";
+@import "components/aside";
+@import "components/components";
+@import "components/footer";
+@import "components/stilosbg8";
+
+/*DEFAULT*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*:focus {
+	border: none;
+	box-shadow: none;
+	outline: none !important;
+}
+html,
+body {
+	background: $blackSoft;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	transition: .3s ease-in-out;
+	&:hover {
+		text-decoration: none;
+		cursor: pointer;
+		transition: .3s ease-in;
+	}
+}
+ul {
+	margin: 0;
+	padding: 0;
+	li {
+		list-style: none;
+	}
+}
+button {
+	border: none;
+}
+i {
+	font-style: normal;
+}
+/**/

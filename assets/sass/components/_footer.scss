@@ -1,0 +1,17 @@
+.footer *{ color: #868080; font-family: arial;}
+.footer{ position: relative; margin: 90px auto 0 auto; height: auto; width: 100%; display: block; background: #1e1e1f; }
+.footer .footer_linea1, .footer .footer_linea2{ background: url(https://badgirls8.com/assets/img/footer_line.png) center repeat-x; width: 100%; position: absolute; height: 2px;}
+.footer .footer_linea1{ position: absolute; top: 4px; }
+.footer .footer_linea2{ position: absolute; bottom: 4px; }
+.footer8{ position: absolute; right: -304px; bottom: 0; max-width: 453px; width: 100%; max-height: 451px; display: block; overflow: hidden; display: none !important; }
+.footer8 img{ width: 100%; position: relative; top: 28px; }
+.footer_cont{ max-width: 100%; width: 100%; height: auto;  position: relative; margin: 0 auto; display: block; padding: 10px 0 30px;}
+.footer .nav_cont{ width: 100%; max-width: 1143px; position: relative; margin: 0 auto; overflow: hidden; display: block; }
+.footer ul{ float: left; margin: 40px 20px 20px;  /*max-width: 244px;*/ width: 20%; list-style: none;}
+.footer ul li{ float: left; width: 100%; line-height: 21px; }
+.footer ul li a{ float: left; display: block; margin: 0 0 15px;  }
+.footer ul li a:hover{ text-decoration: underline; color: #fff;  }
+.footer .titulos{ text-transform: uppercase; text-align: left; margin: 0 0 20px 0; width: 100%; font-size: 24px; font-family: 'Muro Regular';  }
+.footer .footer_logo{ display: block; margin: 40px auto 15px; max-width: 199px; min-height: 47px;  overflow: hidden; position: relative;  width: 100%; }
+.footer p{ position: relative; margin: 0 auto; display: block; text-align: center; font-size: 14px; width: 100%;  }
+.footer.not-mar-top{margin-top: 0;}
